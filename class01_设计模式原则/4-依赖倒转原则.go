@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// 依赖倒转原则： 鼓励用接口编程
+
 // 抽象层
 type Car interface {
 	Run()
